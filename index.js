@@ -25,6 +25,8 @@ function currentLine(line){
 		curLine += (i + 1) + '. ' + line[i] + ', ';
 		//console.log(curLine);
 	}
+		curLine = curLine.slice(0, curLine.length-2);
+		return 'The line is currently: ' + curLine;
  }
  return curLine;
 }
