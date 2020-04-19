@@ -9,7 +9,7 @@ function takeANumber(currLine, newCustName) {
 function nowServing(arr){
 	if(arr.length !== 0){
 		//let firstInLine = arr[0];
-		//arr.slice(1,1);
+		arr.slice(1,1);
 		return `Currently serving ${arr[0]}.`;
 		// return arr;
 	} else {
