@@ -10,7 +10,7 @@ function nowServing(arr){
 	if(arr.length !== 0){
 		//let firstInLine = arr[0];
 		//arr.slice(1,1);
-		return `Now serving ${arr[0]}`;
+		return `Currently serving ${arr[0]}.`;
 		// return arr;
 	} else {
 		return 'There is nobody waiting to be served!';
