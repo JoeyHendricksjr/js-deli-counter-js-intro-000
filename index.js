@@ -13,6 +13,6 @@ function nowServing(arr){
 		return `Now serving ${arr[0]}`;
 		// return arr;
 	} else {
-		return 'There is nobody waiting to be served.';
+		return 'There is nobody waiting to be served!';
 	}
 }
