@@ -3,6 +3,6 @@ function takeANumber(currLine, newCustName) {
 	if(currLine.length === 0){
 		return `Welcome, ${newCustName}. You are number 1 in line.`;
 	} else if( currLine.length !==0){
-		return `Welcome ${newCustName}. You are number ${currLine.length} in line.`;
+		return `Welcome, ${newCustName}. You are number ${currLine.length} in line.`;
 	}
 }
