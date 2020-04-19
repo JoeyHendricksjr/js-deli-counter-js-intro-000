@@ -1,8 +1,8 @@
 function takeANumber(currLine, newCustName) {
-	katzDeliLine.push(newCustName);
-	if(katzDeliLine.length === 0){
+	currLine.push(newCustName);
+	if(currLine.length === 0){
 		return `Welcome, ${newCustName}. You are number 1 in line.`;
-	} else if( katzDeliLine.length !==0){
-		return `Welcome ${newCustName}. You are number ${katzDeliLine.length} in line.`;
+	} else if( currLine.length !==0){
+		return `Welcome ${newCustName}. You are number ${currLine.length} in line.`;
 	}
 }
