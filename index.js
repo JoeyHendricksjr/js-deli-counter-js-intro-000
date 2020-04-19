@@ -1,3 +1,4 @@
+let katzDeliLine = [];
 function takeANumber(currLine, newCustName) {
 	katzDeliLine.push(newCustName);
 	if(katzDeliLine.length === 0){
