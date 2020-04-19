@@ -8,9 +8,9 @@ function takeANumber(currLine, newCustName) {
 }
 function nowServing(arr){
 	if(arr.length !== 0){
-		//let firstInLine = arr[0];
-		arr.slice(1,1);
-		return `Currently serving ${arr[0]}.`;
+		let firstInLine = arr[0];
+		arr.splice(0,1);
+		return `Currently serving ${firstInLine}.`;
 		// return arr;
 	} else {
 		return 'There is nobody waiting to be served!';
